@@ -13,11 +13,11 @@
 			
             minutes = parseInt((today.getTime() - date.getTime()) / (60*1000));
 			
-			if (minutes == 0) {
-			    $this.html('Just now');
-			} else if (minutes < 2) {
-			    $this.html(minutes + ' minute ago');
-			} else if (minutes < 60) {
+            if (minutes == 0) {
+                $this.html('Just now');
+            } else if (minutes < 2) {
+                $this.html(minutes + ' minute ago');
+            } else if (minutes < 60) {
                 $this.html(minutes + ' minutes ago');
             } else if (minutes < 120) {
                 $this.html('About an hour ago');
