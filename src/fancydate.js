@@ -1,4 +1,5 @@
 // fancyDate - a simple jQuery plugin that takes a date and converts it to a date format similar to what Facebook uses
+// https://github.com/hermanschutte/fancyDate
 // Copyright (c) 2011 Herman Schutte - herman.schutte@gmail.com
 // Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
 (function ($) {
